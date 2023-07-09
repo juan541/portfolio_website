@@ -7,6 +7,7 @@ class Projects(models.Model):
     image = models.ImageField(upload_to='images/')
     description = models.TextField(blank=True)
     technology = models.CharField(max_length=30)
+    github_link = models.URLField(default="github.com")
     date_pub = models.DateTimeField(default=datetime.now, blank=True)
 
 class Contact(models.Model):

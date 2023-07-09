@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% block content %}
-<h1 style="color:red; text-align:center;">{{ project.title }}</h1>
+<h1  class="display-4", style="alignment: center">{{ project.title }}</h1>
+    <br>
+
 <div class="row">
     <div class="col-md-8">
         <img src="{{ project.image.url }}" alt="" width="50%">
@@ -14,6 +16,9 @@
         <br>
         <h5>Technology used:</h5>
         <p>{{ project.technology }}</p>
+        <br>
+        <a href="{{ project.github_link }}"><h5>Github Link</h5></a>
+         <br>
         <p><a href="{% url 'contact' %}">Want to know more about the project?</a></p>
     </div>
 </div>
