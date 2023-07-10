@@ -72,7 +72,7 @@ a {
   line-height: 1;
   font-weight: 400;
   letter-spacing: 2px;
-  font-family: Meddon, cursive;
+  font-family: Georgia, sans-serif;
   font-size: 20px !important;
 }
 #header .logo:hover {
@@ -189,7 +189,7 @@ nav {
 .nav-menu .drop-down ul .active > a,
 .nav-menu .drop-down ul a:hover,
 .nav-menu .drop-down ul li:hover > a {
-  color: #5846f9;
+  color: #304ddd;
 }
 .nav-menu .drop-down > a:after {
   content: "\ea99";
@@ -276,7 +276,7 @@ nav {
   text-align: right;
 }
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #8c8b8b;
 }
 .mobile-nav {
   position: fixed;
@@ -738,7 +738,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Niconne;
+  font-family: Georgia;
   text-transform: lowercase;
 }
 .logo2 h2 {
@@ -1116,12 +1116,12 @@ body.dark-theme .icofont-navigation-menu {
   color: #222 !important;
 }
 body.dark-theme .active {
-  color: #6e31df !important;
+  color: #304ddd !important;
 }
 body.dark-theme .nav-menu .active > a,
 body.dark-theme .nav-menu a:hover,
 body.dark-theme .nav-menu li:hover > a {
-  color: #5846f9 !important;
+  color: #304cdb !important;
   text-decoration: none !important;
 }
 body.dark-theme .navbur.scrolled {
